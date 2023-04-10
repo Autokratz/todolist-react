@@ -1,0 +1,104 @@
+.todoContainer {
+  width: 500px;
+  margin: 100px auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.todoCreateForm {
+  display: flex;
+  gap: 5px;
+}
+
+.todoInput {
+  flex-grow: 1;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgba(0, 255, 255, 0.2); 
+  color: #fff; 
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.8); 
+}
+
+.buttonCreate {
+  border: none;
+  border-radius: 3px;
+  background-color: #7f00ff;
+  box-shadow: 0 0 10px #7f00ff, 0 0 20px #7f00ff, 0 0 30px #7f00ff, 0 0 40px #7f00ff;
+  color: #fff; 
+  text-shadow: 0 0 10px rgba(191, 0, 255, 0.8); 
+  padding: 10px 20px;
+  animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+.todosContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.todo {
+  padding: 10px;
+  background-color: rgba(0, 255, 255, 0.2); 
+  color: #fff; 
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.8); 
+}
+
+.todoTitle {
+  flex: 1;
+  font-size: 20px;
+}
+.todoUpdateForm,
+.todoInfo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  color: #29d7ff; 
+  text-shadow:
+    0 0 5px #29d7ff,
+    0 0 10px #29d7ff,
+    0 0 20px #29d7ff,
+    0 0 40px #1e3c72,
+    0 0 80px #1e3c72,
+    0 0 90px #1e3c72,
+    0 0 100px #1e3c72;
+  box-shadow:
+    0 0 5px #29d7ff,
+    0 0 10px #29d7ff,
+    0 0 20px #29d7ff,
+    0 0 40px #1e3c72,
+    0 0 80px #1e3c72,
+    0 0 90px #1e3c72,
+    0 0 100px #1e3c72;
+  background: linear-gradient(to bottom, #29d7ff, #1e3c72); 
+}
+
+.buttonDelete {
+  border: none;
+  border-radius: 3px;
+  background-color: #FF1493;
+  color: white;
+  padding: 10px 20px;
+  color: #ff0931; 
+  text-shadow:
+    0 0 5px #ff0931,
+    0 0 10px #ff0931,
+    0 0 20px #ff0931,
+    0 0 40px #ff0931,
+    0 0 80px #ff0931;
+  box-shadow:
+    0 0 5px #ff0931,
+    0 0 10px #ff0931,
+    0 0 20px #ff0931,
+    0 0 40px #ff0931,
+    0 0 80px #ff0931;
+  background: linear-gradient(to bottom, #ff0931, #8A0707); 
+}
